@@ -3,7 +3,7 @@
 int main() {
     int numero;
     printf("Digite um número entre 1 e 12: ");
-    scanf("%d", &numero);
+    scanf("%f", &numero);
 
     switch (numero) {
         case 1:
@@ -41,9 +41,6 @@ int main() {
             break;
         case 12:
             printf("Dezembro\n");
-            break;
-        default:
-            printf("Número inválido! Digite um valor entre 1 e 12.\n");
             break;
     }
 }
