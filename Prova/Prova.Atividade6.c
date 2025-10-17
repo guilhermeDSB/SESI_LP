@@ -46,5 +46,4 @@ int main() {
             printf("Número inválido! Digite um valor entre 1 e 12.\n");
             break;
     }
-    return 0;
 }
